@@ -1,0 +1,605 @@
+{
+  "course": {
+    "VV115": {
+      "credit": 4,
+      "name": "Calculus I",
+      "degree": ["ECE", "ME"],
+      "category": "GE"
+    },
+    "VV116": {
+      "credit": 4,
+      "name": "Calculus II",
+      "degree": ["ECE", "ME"],
+      "category": "EF",
+      "equivalent": ["VV156", "VV186"]
+    },
+    "VV156": {
+      "credit": 4,
+      "name": "Applied Calculus II",
+      "degree": ["ECE", "ME"],
+      "category": "EF",
+      "equivalent": ["VV116", "VV186"]
+    },
+    "VV186": {
+      "credit": 4,
+      "name": "Honors Mathematics II",
+      "degree": ["ECE", "ME"],
+      "category": "EF",
+      "equivalent": ["VV116", "VV156"]
+    },
+    "VV215": {
+      "credit": 4,
+      "name": "Calculus III",
+      "degree": ["ECE", "ME"],
+      "category": "EF",
+      "equivalent": ["VV255", "VV285"]
+    },
+    "VV255": {
+      "credit": 4,
+      "name": "Applied Calculus III",
+      "degree": ["ECE", "ME"],
+      "category": "EF",
+      "equivalent": ["VV215", "VV285"]
+    },
+    "VV285": {
+      "credit": 4,
+      "name": "Honors Mathematics III",
+      "degree": ["ECE", "ME"],
+      "category": "EF",
+      "equivalent": ["VV215", "VV255"]
+    },
+    "VV216": {
+      "credit": 4,
+      "name": "Calculus IV",
+      "degree": ["ECE", "ME"],
+      "category": "EF",
+      "equivalent": ["VV256", "VV286"]
+    },
+    "VV256": {
+      "credit": 4,
+      "name": "Applied Calculus IV",
+      "degree": ["ECE", "ME"],
+      "category": "EF",
+      "equivalent": ["VV216", "VV286"]
+    },
+    "VV286": {
+      "credit": 4,
+      "name": "Honors Mathematics IV",
+      "degree": ["ECE", "ME"],
+      "category": "EF",
+      "equivalent": ["VV216", "VV256"]
+    },
+    "VG100": {
+      "credit": 4,
+      "name": "Intro to Engr.",
+      "degree": ["ECE", "ME"],
+      "category": "EF"
+    },
+    "VG101": {
+      "credit": 4,
+      "name": "Intro to Comp.",
+      "degree": ["ECE", "ME"],
+      "category": "EF"
+    },
+    "VC210": {
+      "credit": 4,
+      "name": "Chemistry",
+      "degree": ["ECE", "ME"],
+      "category": "EF"
+    },
+    "VC211": {
+      "credit": 1,
+      "name": "Chemistry Lab",
+      "degree": ["ECE", "ME"],
+      "category": "EF"
+    },
+    "VP140": {
+      "credit": 4,
+      "name": "Physics I",
+      "degree": ["ECE", "ME"],
+      "category": "EF",
+      "equivalent": ["VP160"]
+    },
+    "VP160": {
+      "credit": 4,
+      "name": "Honors Physics I",
+      "degree": ["ECE", "ME"],
+      "category": "EF",
+      "equivalent": ["VP140"]
+    },
+    "VP141": {
+      "credit": 1,
+      "name": "Physics Lab I",
+      "degree": ["ECE", "ME"],
+      "category": "EF"
+    },
+    "VP240": {
+      "credit": 4,
+      "name": "Physics II",
+      "degree": ["ECE", "ME"],
+      "category": "EF",
+      "equivalent": ["VP260"]
+    },
+    "VP260": {
+      "credit": 4,
+      "name": "Honors Physics II",
+      "degree": ["ECE", "ME"],
+      "category": "EF",
+      "equivalent": ["VP240"]
+    },
+    "VP241": {
+      "credit": 1,
+      "name": "Physics Lab II",
+      "degree": ["ECE", "ME"],
+      "category": "EF"
+    },
+    "VE203": {
+      "credit": 4,
+      "name": "Discrete Mathematics",
+      "degree": ["ECE"],
+      "category": "EF"
+    },
+    "VE215": {
+      "credit": 4,
+      "name": "Intro to Circuits",
+      "degree": ["ECE", "ME"],
+      "category": "PS"
+    },
+    "VE216": {
+      "credit": 4,
+      "name": "Signal and Systems I",
+      "degree": ["ECE"],
+      "category": "PS"
+    },
+    "VE280": {
+      "credit": 4,
+      "name": "Prog. & Data Structure",
+      "degree": ["ECE"],
+      "category": "PS"
+    },
+    "VE230": {
+      "credit": 4,
+      "name": "Electromagnetics I",
+      "degree": ["ECE"],
+      "category": "PS"
+    },
+    "VE270": {
+      "credit": 4,
+      "name": "Intro to Logic Design",
+      "degree": ["ECE"],
+      "category": "PS"
+    },
+    "VE320": {
+      "credit": 4,
+      "name": "Semiconductor Dev. Theo.",
+      "degree": ["ECE"],
+      "category": "PS"
+    },
+    "VE370": {
+      "credit": 4,
+      "name": "Intro to Comp. Org.",
+      "degree": ["ECE"],
+      "category": "PS"
+    },
+    "VE300": {
+      "credit": 1,
+      "name": "Technical Communication",
+      "degree": ["ECE"],
+      "category": "PS"
+    },
+    "VE401": {
+      "credit": 4,
+      "name": "Probablistic Meth. in Engr.",
+      "degree": ["ECE"],
+      "category": "PS"
+    },
+    "VE450": {
+      "credit": 4,
+      "name": "Capstone Design",
+      "degree": ["ECE"],
+      "category": "PS"
+    },
+    "VE496": {
+      "credit": 2,
+      "name": "Technical Communication",
+      "degree": ["ECE"],
+      "category": "PS"
+    },
+    "VE281": {
+      "credit": 4,
+      "name": "",
+      "degree": ["ECE"],
+      "category": "CE"
+    },
+    "VE312": {
+      "credit": 4,
+      "name": "",
+      "degree": ["ECE"],
+      "category": "CE"
+    },
+    "VE330": {
+      "credit": 4,
+      "name": "",
+      "degree": ["ECE"],
+      "category": "CE"
+    },
+    "VE334": {
+      "credit": 4,
+      "name": "",
+      "degree": ["ECE"],
+      "category": "CE"
+    },
+    "VE353": {
+      "credit": 4,
+      "name": "",
+      "degree": ["ECE"],
+      "category": "CE"
+    },
+    "VE373": {
+      "credit": 4,
+      "name": "",
+      "degree": ["ECE"],
+      "category": "CE"
+    },
+    "VE451": {
+      "credit": 4,
+      "name": "",
+      "degree": ["ECE"],
+      "category": "CE"
+    },
+    "VE455": {
+      "credit": 4,
+      "name": "",
+      "degree": ["ECE"],
+      "category": "CE"
+    },
+    "VE460": {
+      "credit": 4,
+      "name": "",
+      "degree": ["ECE"],
+      "category": "CE"
+    },
+    "VE475": {
+      "credit": 4,
+      "name": "",
+      "degree": ["ECE"],
+      "category": "UTE"
+    },
+    "VE477": {
+      "credit": 4,
+      "name": "",
+      "degree": ["ECE"],
+      "category": "UTE"
+    },
+    "VE482": {
+      "credit": 4,
+      "name": "",
+      "degree": ["ECE"],
+      "category": "UTE"
+    },
+    "VV214": {
+      "credit": 4,
+      "name": "Linear Algebra",
+      "degree": ["ME"],
+      "category": "EF"
+    },
+    "VM020": {
+      "credit": 1,
+      "name": "Machineshop Training",
+      "degree": ["ME"],
+      "category": "PS"
+    },
+    "VM211": {
+      "credit": 4,
+      "name": "Intro to Solid Mechanic",
+      "degree": ["ME"],
+      "category": "PS"
+    },
+    "VM235": {
+      "credit": 3,
+      "name": "Themodynamics",
+      "degree": ["ME"],
+      "category": "PS"
+    },
+    "VM240": {
+      "credit": 4,
+      "name": "Intro to Dynamics & Viber.",
+      "degree": ["ME"],
+      "category": "PS"
+    },
+    "VM250": {
+      "credit": 4,
+      "name": "Design and Manufacture I",
+      "degree": ["ME"],
+      "category": "PS"
+    },
+    "VM320": {
+      "credit": 3,
+      "name": "Fluids",
+      "degree": ["ME"],
+      "category": "PS"
+    },
+    "VM335": {
+      "credit": 3,
+      "name": "Heat Transfer",
+      "degree": ["ME"],
+      "category": "PS"
+    },
+    "VM350": {
+      "credit": 4,
+      "name": "Design and Manufacture II",
+      "degree": ["ME"],
+      "category": "PS"
+    },
+    "VM360": {
+      "credit": 4,
+      "name": "Modeling, Analysis & Ctrl of Dynamic Systems",
+      "degree": ["ME"],
+      "category": "PS"
+    },
+    "VM382": {
+      "credit": 4,
+      "name": "Engineering Materials",
+      "degree": ["ME"],
+      "category": "PS"
+    },
+    "VM395": {
+      "credit": 4,
+      "name": "Laboratory I",
+      "degree": ["ME"],
+      "category": "PS"
+    },
+    "VM450": {
+      "credit": 4,
+      "name": "Design and Manufacture III",
+      "degree": ["ME"],
+      "category": "PS"
+    },
+    "VM495": {
+      "credit": 4,
+      "name": "Laboratory II",
+      "degree": ["ME"],
+      "category": "PS"
+    },
+    "VY100": {
+      "credit": 4,
+      "name": "Academic Writing I",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "VY200": {
+      "credit": 4,
+      "name": "Academic Writing II",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "PE001": {
+      "credit": 1,
+      "name": "Physical Education I",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "PE002": {
+      "credit": 1,
+      "name": "Physical Education II",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "PE003": {
+      "credit": 1,
+      "name": "Physical Education III",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "PE004": {
+      "credit": 1,
+      "name": "Physical Education IV",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "TH000": {
+      "credit": 2,
+      "name": "Morals and Ethics and Law",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "TH004": {
+      "credit": 1,
+      "name": "Military Theorem",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "TH007": {
+      "credit": 2,
+      "name": "Marxism Basic Theorem",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "TH009-1": {
+      "credit": 0,
+      "name": "Circumstance and Policy I",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "TH009-2": {
+      "credit": 0,
+      "name": "Circumstance and Policy II",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "TH009-3": {
+      "credit": 0,
+      "name": "Circumstance and Policy III",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "TH009-4": {
+      "credit": 0,
+      "name": "Circumstance and Policy IV",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "TH012": {
+      "credit": 3,
+      "name": "Mao Zedong's Thoughts",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "TH021": {
+      "credit": 2,
+      "name": "Modern Chinese History",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "XP000": {
+      "credit": 0,
+      "name": "General Education Practice",
+      "degree": ["ECE", "ME"],
+      "category": "SJTU"
+    },
+    "VG496": {
+      "credit": 2,
+      "name": "Ethics & Professionlism",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    },
+    "VR140": {
+      "credit": 4,
+      "name": "Comparative Governments and Politics",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    },
+    "VR150": {
+      "credit": 3,
+      "name": "German Culture",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    },
+    "VR203": {
+      "credit": 4,
+      "name": "Food in Modern East Asian History",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    },
+    "VR206": {
+      "credit": 4,
+      "name": "China in the Early Modern World",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    },
+    "VR253": {
+      "credit": 3,
+      "name": "Culture, Technology and Silicon Valley",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    },
+    "VR261": {
+      "credit": 3,
+      "name": "",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    },
+    "VR262": {
+      "credit": 4,
+      "name": "Introduction to the Philosophy of Religion",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    },
+    "VR275": {
+      "credit": 3,
+      "name": "",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    },
+    "VR280": {
+      "credit": 3,
+      "name": "Introduction to Modern Chinese Literature",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    },
+    "VR310": {
+      "credit": 3,
+      "name": "",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    },
+    "VR363": {
+      "credit": 3,
+      "name": "Chinese Society in Contemporary Chinese Cinema",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    },
+    "VR381": {
+      "credit": 3,
+      "name": "Introduction to Social Science Research Design",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    },
+    "VX253": {
+      "credit": 3,
+      "name": "Leadership and Management",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    },
+    "VX251": {
+      "credit": 2,
+      "name": "Branding and Brand Management",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    },
+    "VX310": {
+      "credit": 3,
+      "name": "Interpersonal Communication: Social and Cross-Cultural Communication Skills",
+      "degree": ["ECE", "ME"],
+      "category": "IB"
+    }
+  },
+  "degree": {
+    "ECE": {
+      "name": "Electrics and Computer Engineering",
+      "credit": {"EF": 39, "IB": 16, "PS": 43, "CE": 4, "UTE": 7, "FTE": 12, "GE": 7, "SJTU": 22},
+      "credit-dd": {"CE": 0, "IB": 8, "FTE": 16}
+    },
+    "ME": {
+      "name": "Mechanical Engineering",
+      "credit": {"EF": 39, "IB": 16, "PS": 50, "AM": 3, "FTE": 11, "GE": 9, "SJTU": 22}
+    }
+  },
+  "category": {
+    "EF": "Engineering Foundation",
+    "IB": "Intellectual Breadth",
+    "PS": "Program Subject",
+    "AM": "Advanced Mathematics",
+    "CE": "Core Elective",
+    "UTE": "Upper Level Technical Elective",
+    "FTE": "Flexible Technical Elective",
+    "GE": "General Elective",
+    "SJTU": "Required by MoE and SJTU"
+  },
+  "letter": {
+    "43": "A+",
+    "40": "A",
+    "37": "A-",
+    "33": "B+",
+    "30": "B",
+    "27": "B-",
+    "23": "C+",
+    "20": "C",
+    "17": "C-",
+    "10": "D",
+    "0": "F"
+  },
+  "grade": {
+    "A+": 43,
+    "A": 40,
+    "A-": 37,
+    "B+": 33,
+    "B": 30,
+    "B-": 27,
+    "C+": 23,
+    "C": 20,
+    "C-": 17,
+    "D": 10,
+    "F": 0
+  }
+}
