@@ -3,3 +3,5 @@
  */
 
 const fs = require('fs');
+const course_list = require('./ji-course-list');
+
