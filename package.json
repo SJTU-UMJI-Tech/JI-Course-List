@@ -1,0 +1,12 @@
+{
+  "name": "JI-Course-List",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SJTU-UMJI-Tech/JI-Course-List.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "node src/build.js"
+  }
+}
