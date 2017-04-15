@@ -8,5 +8,8 @@
   "license": "MIT",
   "scripts": {
     "build": "node src/build.js"
+  },
+  "dependencies": {
+    "winston": "^2.3.1"
   }
 }
