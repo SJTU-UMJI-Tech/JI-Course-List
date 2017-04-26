@@ -28,12 +28,12 @@ class JICourse {
             for (let j = 0; j < category_arr.length; j++) {
                 let category = category_arr[j];
                 if (!CATEGORY.hasOwnProperty(category)) {
-                    logger.error(`(in ${this.code}) Category "${category}" undefined for ${degree} Degree`);
+                    logger.error(`(${this.code}) Category "${category}" undefined for ${degree} Degree`);
                 }
                 let flag = true;
                 for (let k = 0; k < this.degree[degree].length; k++) {
                     if (this.degree[degree][k] === category) {
-                        logger.warn(`(in ${this.code}) Category "${category}" redefined for ${degree} Degree`);
+                        logger.warn(`(${this.code}) Category "${category}" redefined for ${degree} Degree`);
                         flag = false;
                         break;
                     }
@@ -44,6 +44,14 @@ class JICourse {
             }
         }
         return this;
+    }
+
+    prerequisite() {
+
+    }
+
+    corequisite() {
+
     }
 
 }

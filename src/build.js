@@ -5,5 +5,8 @@ const course_list = require('./lib/ji-course-list');
 const logger = require('./lib/logger');
 
 require('./courses/engineering-foundation');
+require('./courses/program-subject');
 
+
+module.exports = course_list;
 
