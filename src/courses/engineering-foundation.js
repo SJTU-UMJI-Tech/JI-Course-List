@@ -47,3 +47,5 @@ course_list.add('VE203', 4, 'Discrete Mathematics', '离散数学').category('EC
 
 // ME only
 course_list.add('VV214', 4, 'Linear Algebra', '线性代数').category('ME', 'EF');
+
+logger.info('Reading Engineering Foundation Success');

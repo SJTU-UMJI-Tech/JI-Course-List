@@ -15,6 +15,15 @@ class JICourse {
         this.degree = {};
     }
 
+    serialize() {
+        return {
+            credit: this.credit,
+            name: this.name,
+            name_ch: this.name_ch,
+            degree: this.degree
+        }
+    }
+
     category(degree_arr, category_arr) {
 
         if (!(degree_arr instanceof Array)) degree_arr = [degree_arr];

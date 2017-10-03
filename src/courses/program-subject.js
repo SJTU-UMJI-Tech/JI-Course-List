@@ -40,3 +40,6 @@ initMECourse('VM382', 4, 'Mechanical Behavior of Materials', '材料机械性能
 initMECourse('VM395', 4, 'Laboratory I', '实验 (1)');
 initMECourse('VM450', 4, 'Design and Manufacturing III', '设计与制造 (3)');
 initMECourse('VM495', 4, 'Laboratory II', '实验 (2)');
+
+logger.info('Reading Program Subject Success');
+
