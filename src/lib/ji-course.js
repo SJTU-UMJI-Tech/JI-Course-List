@@ -25,6 +25,9 @@ class JICourse {
     }
 
     category(degree_arr, category_arr) {
+        if (degree_arr === 'all') {
+            degree_arr = ['ECE', 'ME'];
+        }
 
         if (!(degree_arr instanceof Array)) degree_arr = [degree_arr];
         if (!(category_arr instanceof Array)) category_arr = [category_arr];

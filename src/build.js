@@ -9,7 +9,10 @@ const logger = require('./lib/logger');
 require('./courses/engineering-foundation');
 require('./courses/program-subject');
 
-// console.log(course_list);
+require('./degree/common-v1');
+require('./degree/ece-v1');
+require('./degree/me-v1');
+
 
 let result = {
     "course": {},
@@ -34,6 +37,7 @@ for (const course_code in course_list.dict) {
 
 const dist = path.resolve(__dirname, '..', 'dist');
 fs.writeFileSync(path.resolve(dist, 'course.json'), JSON.stringify(result, null, 2));
+
 
 // module.exports = course_list;
 

@@ -4,6 +4,7 @@
 
 const logger = require('./logger');
 const JICourse = require('./ji-course');
+const JICourseGroup = require('./ji-course-group');
 
 class JICourseList {
 
@@ -38,6 +39,19 @@ class JICourseList {
             this.dict[code] = new JICourse(code, credit, name, name_ch);
         }
         return this.dict[code];
+    }
+
+    get(code) {
+        if (!(code instanceof Array)) {
+            return this.dict[code];
+        }
+        let data = [];
+        code.forEach(value => {
+            if (this.dict.hasOwnProperty(value)) {
+                data.push(this.dict[value]);
+            }
+        });
+        return new JICourseGroup(data);
     }
 }
 
