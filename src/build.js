@@ -8,6 +8,7 @@ const logger = require('./lib/logger');
 
 require('./courses/engineering-foundation');
 require('./courses/program-subject');
+require('./courses/intellectual-breadth');
 
 require('./degree/common-v1');
 require('./degree/ece-v1');

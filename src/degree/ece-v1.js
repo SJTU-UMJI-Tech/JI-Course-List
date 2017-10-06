@@ -9,3 +9,4 @@ const PS = [
 course_list.get('VE203').category('ECE', 'EF');
 course_list.get(PS).category('ECE', 'PS');
 
+course_list.getCategoryAll();

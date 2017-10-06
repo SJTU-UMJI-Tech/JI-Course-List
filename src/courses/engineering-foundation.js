@@ -10,8 +10,9 @@ course_list.add('VG100', 4, 'Intro to Engineering', '工程导论');
 course_list.add('VG101', 4, 'Intro to Computers & Programming', '计算机导论');
 
 // Chemistry
-course_list.add('VC210', 4, 'Chemistry', '普通化学');
-course_list.add('VC211', 4, 'Chemistry Lab', '普通化学实验');
+course_list.add('VC209', 4, 'Chemistry', '大学化学'); // Newly added in FA2017
+course_list.add('VC210', 4, 'Chemistry', '大学化学');
+course_list.add('VC211', 1, 'Chemistry Lab', '普通化学实验');
 
 // Physics
 course_list.add('VP140', 4, 'Physics I', '普通物理 (1)');
